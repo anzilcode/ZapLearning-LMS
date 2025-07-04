@@ -11,7 +11,7 @@ const CourseDetails = () => {
   useEffect(() => {
     const fetchCourse = async () => {
       try {
-        const { data } = await axios.get(`http://localhost:5000/courses/${id}`);
+        const { data } = await axios.get(`https://zaplearning-backend.onrender.com/courses/${id}`);
         setCourse(data);
       } catch (err) {
         console.error('Failed to fetch course details', err);
