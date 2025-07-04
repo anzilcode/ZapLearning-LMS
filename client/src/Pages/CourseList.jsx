@@ -17,7 +17,7 @@ const CourseList = () => {
   useEffect(() => {
     const fetchCourses = async () => {
       try {
-        const res = await axios.get('http://localhost:5000/courses');
+        const res = await axios.get('https://zaplearning-backend.onrender.com/courses');
         setCourses(res.data);
         setFilteredCourses(res.data);
       } catch (err) {
