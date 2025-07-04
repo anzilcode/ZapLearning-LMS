@@ -96,7 +96,7 @@ const AddCourse = () => {
       }
 
       const res = await axios.post(
-        'https://zaplearning-backend.onrender.com/courses/add'
+        'https://zaplearning-backend.onrender.com/courses/add',
         formData,
         {
           headers: {
