@@ -14,7 +14,7 @@ const Dashboard = () => {
   useEffect(() => {
     const fetchMetrics = async () => {
       try {
-        const { data } = await axios.get('http://localhost:5000/dashboard-metrics');
+        const { data } = await axios.get('https://zaplearning-backend.onrender.com/dashboard-metrics');
         setMetrics(data);
       } catch (err) {
         console.error('Failed to fetch dashboard metrics', err);
