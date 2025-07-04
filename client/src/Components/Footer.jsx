@@ -66,7 +66,7 @@ const Footer = () => {
         <div>
           <h3 className="text-lg font-semibold mb-3">Get in Touch</h3>
           <p className="text-sm text-blue-100">Email: support@zaplearn.com</p>
-          <p className="text-sm text-blue-100">Phone: +91 98765 43210</p>
+          <p className="text-sm text-blue-100">Phone: +91 9745 665563</p>
           <div className="flex gap-4 mt-4">
             <span className="text-white cursor-pointer hover:text-blue-300">🔗</span>
             <span className="text-white cursor-pointer hover:text-blue-300">🐦</span>
