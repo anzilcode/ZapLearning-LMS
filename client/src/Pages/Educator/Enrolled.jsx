@@ -10,7 +10,7 @@ const StudentEnrollment = () => {
       try {
         const token = localStorage.getItem('token');
         const { data } = await axios.get(
-          'http://localhost:5000/enrollments/my-students',
+          'https://zaplearning-backend.onrender.com/enrollments/my-students'
           {
             headers: {
               Authorization: `Bearer ${token}`,
