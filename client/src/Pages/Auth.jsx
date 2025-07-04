@@ -26,8 +26,8 @@ const Auth = () => {
 
     const endpoint =
       auth === 'signUp'
-        ? 'http://localhost:5000/auth/register'
-        : 'http://localhost:5000/auth/login';
+        ? 'https://zaplearning-backend.onrender.com/auth/register'
+        : 'https://zaplearning-backend.onrender.com/auth/login';
 
     try {
       const response = await axios.post(endpoint, formData);
